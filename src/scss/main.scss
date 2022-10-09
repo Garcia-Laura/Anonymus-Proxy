@@ -31,14 +31,16 @@
    align-items: center;
    justify-content: flex-end;
    padding-bottom: 30px;
+   
 }
-/*.title2::first-line {
-   word-spacing: 100vw;
- }*/
+
 
 .title2{
    text-transform: uppercase;
-   
+   text-align: center;
+   width: 9ch;
+   font-size: 50px;
+   margin-right: 50px;
 }
 
 .down{
@@ -49,15 +51,24 @@
    padding: 10px;
 }
 /* Comienza el main*/
+.section1{
+   margin-top: 30px;
+   margin: 20px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
 .insomnia{
    padding-top: 25px;
    color: #8ccbea;
    font-size: 14px;
+   line-height: -10px;
 }
 .looking{
    font-size: 24px;
    text-align: left;
    text-transform: capitalize;
+   
 }
 .parrafo{
    font-size: 24px;
@@ -72,4 +83,21 @@
    border: 2px solid #f26002;
    height: 40px;
    width: 70px;
+}
+.section2{
+   background-color: #eff9ff;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+}
+.reason{
+   font-size: 24px;
+   text-transform: capitalize;
+}
+.statement{
+   font-weight: bolder;
+   color: black;
 }
