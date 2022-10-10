@@ -1,0 +1,6 @@
+<article class="article">
+    <h3 class="statement">
+        @@variable
+    </h3>
+    <p class="paragraph"> @@text </p>
+</article>

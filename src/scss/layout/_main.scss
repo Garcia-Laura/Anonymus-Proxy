@@ -1,0 +1,123 @@
+.section1 {
+    margin-top: 30px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 25px;
+  }
+  .insomnia {
+    margin: 24.9px 0 0;
+    padding-top: 25px;
+    color: #8ccbea;
+    font-size: 14px;
+    line-height: -10px;
+  }
+  .looking {
+    font-size: 24px;
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: bolder;
+    width: 18ch;
+  }
+  .parrafo {
+    font-size: 15px;
+    text-align: left;
+    color: #4a4a4a;
+    padding-bottom: 20px;
+  }
+  .button {
+    color: #f26002;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 2px solid #f26002;
+    height: 45px;
+    width: 76px;
+    margin-bottom: 20px;
+  }
+  .section2 {
+    background-color: #eff9ff;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    text-align: center;
+    
+   
+  }
+  
+  .article, .article2, .article3{
+     box-sizing: border-box;
+     font-size: 18px;
+      
+  }
+  .reason {
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-top: 25px;
+    margin-bottom: 25px;
+   
+   
+  }
+  .statement {
+    font-weight: bolder;
+  }
+    
+  .paragraph::first-line{
+    word-spacing:100vw;
+    
+    
+  }
+  .elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .more{
+     border: 3px solid #f26002;
+     border-radius: 60px;
+     background-color: #f26002;
+     color: white;
+     font-size: 20px;
+     margin-bottom: 25px;
+     width: 182px;
+     height: 45px;
+     text-align: center;
+     align-items: center;
+  
+  }
+  .arrow{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    position:relative;
+    top: 25px;
+    padding: 10px;
+}
+.section1 {
+    @media all and (min-width: 1000px) {
+    justify-content: center;
+    align-items: center;
+  }
+}
+.looking {
+    @media all and (min-width: 768px) {
+      width: 100vw;
+      
+  }
+}
+.parrafo{
+  @media all and (min-width: 768px) {
+    width:85%;
+  }
+}
+
+.footer{
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    
+  }
+}

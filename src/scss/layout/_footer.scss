@@ -1,0 +1,35 @@
+.footer {
+    background-color: #304268;
+    color:  white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 36px;
+    gap: 20px;
+  }
+ 
+ .list, .list2{
+    text-transform: uppercase;
+    font-size: 18;
+ }
+ .list, .list2, .list3{
+     line-height: 20px;
+     color: white;
+ }
+ link{
+   background-color: white;
+   color: white;
+   text-decoration: none;
+ }
+ 
+   
+ 
+ 
+ .em-heart{
+   width: 24px;
+   height: 24px;
+ }
