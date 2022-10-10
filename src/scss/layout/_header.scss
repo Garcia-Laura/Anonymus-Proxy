@@ -38,7 +38,7 @@
   text-transform: uppercase;
   font-weight: bolder;
   text-align: center;
-  font-size: 50px;
+  font-size: 50px $fontText;
   
   @media all and (min-width: 768px) {
       font-size: 80px;
@@ -46,13 +46,14 @@
     }
     @media all and (min-width: 768px) {
       font-size: 100px;
+      width: 10ch;
       
     }  
   
 }
 .subtitle{
   @media all and (min-width: 768px) {
-    font-size: 24;
+    font-size: 24 $fontParrafo;
     
   }
 }

@@ -30,10 +30,12 @@
  .list, .list2{
     text-transform: uppercase;
     text-decoration: none;
+    
  }
  .list, .list2, .list3{
      line-height: 20px;
      color: white;
+     font: $fontParrafo;
  }
  .link{
    background-color: white;

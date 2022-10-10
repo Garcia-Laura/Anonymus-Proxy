@@ -17,7 +17,7 @@
     margin: 24.9px 0 0;
     padding-top: 25px;
     color: #8ccbea;
-    font-size: 14px;
+    font-size: 14px $fontParrafo;
     line-height: -10px;
   }
   .looking {
@@ -26,22 +26,33 @@
     text-transform: capitalize;
     font-weight: bolder;
     width: 18ch;
-    @media all and (min-width: 768px) {
+    font-size: 24px $fontText;
+    @media tablet and (min-width: 768px) {
+      font-size: 26px;
+      width:auto;
+        
       
-     
-      
-   }
+     }
+     @media screen and (min-width: 1000) {
+        font-size: 32px;
+        width: 30ch;
+        
+     }
 
   }
   .parrafo {
-    font-size: 15px;
+    font-size: 15px $fontParrafo;
     text-align: left;
     color: #4a4a4a;
     padding-bottom: 20px;
-    @media all and (min-width: 768px) {
-      width:85%;
+    font-size: 24px;
+    @media tablet and (min-width: 768px) {
+      width:100%;
+      font-size: 20px;
     }
-  
+    @media screen and (min-width: 1000px){
+       width: none;
+    }
   }
 
   .button {
@@ -56,6 +67,16 @@
     transition-property: font-size;
     transition-duration: 4s;
     transition-delay: 2s;
+    @media tablet and (min-width: 768px) {
+      
+      font-size: 20px $fontParrafo;
+    }
+    @media screen and (min-width: 1000px){
+      font-size: 32px;
+      width: 160px;
+      height: 45px;
+    }
+  
   }
   .section2 {
     background-color: #eff9ff;
@@ -74,7 +95,7 @@
       
   }
   .reason {
-    font-size: 24px;
+    font-size: 24px $fontText;
     text-transform: capitalize;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -82,7 +103,8 @@
    
   }
   .statement {
-    font-weight: bolder;
+    font-weight: bolder ;
+    font-size: 18px $fontText;
   }
     
   .paragraph::first-line{
