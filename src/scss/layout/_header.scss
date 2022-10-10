@@ -29,7 +29,10 @@
   align-items: center;
   justify-content: flex-end;
   padding-bottom: 30px;
-}
+ 
+   
+  }
+
 
 .title2 {
   text-transform: uppercase;
@@ -38,6 +41,13 @@
   width: 9ch;
   font-size: 50px;
   margin-right: 50px;
+  @media all and (min-width: 768px) {
+      font-size: 80px;
+    }
+    @media all and (min-width: 1280px) {
+      font-size: 100px;
+    }
+  
 }
 
 .down {

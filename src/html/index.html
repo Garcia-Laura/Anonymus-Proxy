@@ -14,7 +14,7 @@
 
 <body>
   <header class="header">
-    <nav class="images">
+    <nav id=header class="images">
       <a href="https://adalab.es/" target="_blank">
         <img class="icon" src="./assets/images/icono.svg" alt="icon">
       </a>
@@ -24,12 +24,12 @@
     <div class="title">
       <h1 class="title2"> anonymus proxy</h1>
       <h2> In hac habitasse platea dictumst.</h2>
-      <a href="./index#reason.html">
+      <a href="#reason">
         <img class="down" src="./assets/images/down.svg" alt="down">
       </a>
     </div>
   </header>
-  <main>
+  <main class="main">
     <section class="section1">
       <small class="insomnia"> Insomnia tips </small>
       <h2 class="looking"> looking throught a window</h2>
@@ -38,9 +38,10 @@
       <button class="button"> Go</button>
     </section>
 
-    <section class="section2">
+    <section id="reason" class="section2">
 
       <h2 class="reason"> 3 reasons to purchase</h2>
+
 
       <include src="./partials/articles" variable="Ut sed metus" text="Lorem ipsum dolor sit, amet consectetur.">
       </include>
@@ -54,7 +55,9 @@
       </include>
       <div class="elements">
         <button class="more"> More reason </button>
-        <img class="arrow" src="./assets/images/arrow.svg" alt="arrow">
+        <a href="#header">
+          <img class="arrow" src="./assets/images/arrow.svg" alt="arrow">
+        </a></a>"
       </div>
     </section>
   </main>
@@ -68,8 +71,8 @@
     </ul>
     <ul class="list2">
 
-      <a class="link" href="https://adalab.es/" target="_blank">
-        <li>twiter</li>
+      <a class="link" href="https://adalab.es/" style="text-decoration:none" target="_blank">
+        <li>twitter</li>
 
       </a>
 
@@ -86,7 +89,9 @@
     </ul><small>
       <ul class="list3">
         <li>&copy2022</li>
-        <li> we <i class="em em-heart" aria-role="presentation" aria-label="HEAVY BLACK HEART"></i> components</li>
+        <li> we
+          <i class="em em-heart" aria-role="presentation" aria-label="HEAVY BLACK HEART"></i>commponents
+        </li>
     </small>
     </ul>
   </footer>

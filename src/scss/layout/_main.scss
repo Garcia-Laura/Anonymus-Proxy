@@ -5,6 +5,13 @@
     flex-direction: column;
     flex-wrap: wrap;
     line-height: 25px;
+    @media all and (min-width: 1000px) {
+      justify-content: center;
+      align-items: left;
+      margin-left: 200px;
+      width: 75% ;
+     
+    }
   }
   .insomnia {
     margin: 24.9px 0 0;
@@ -19,13 +26,24 @@
     text-transform: capitalize;
     font-weight: bolder;
     width: 18ch;
+    @media all and (min-width: 768px) {
+      width: 100vw;
+     
+      
+   }
+
   }
   .parrafo {
     font-size: 15px;
     text-align: left;
     color: #4a4a4a;
     padding-bottom: 20px;
+    @media all and (min-width: 768px) {
+      width:85%;
+    }
+  
   }
+
   .button {
     color: #f26002;
     background-color: white;
@@ -43,7 +61,7 @@
     grid-template-columns: 1fr;
     grid-gap: 20px;
     text-align: center;
-    
+    /* media*/
    
   }
   
@@ -94,30 +112,18 @@
     width: 30px;
     border-radius: 100px;
     position:relative;
-    top: 25px;
+    top: 40px;
     padding: 10px;
-}
-.section1 {
-    @media all and (min-width: 1000px) {
-    justify-content: center;
-    align-items: center;
-  }
-}
-.looking {
-    @media all and (min-width: 768px) {
-      width: 100vw;
-      
-  }
-}
-.parrafo{
-  @media all and (min-width: 768px) {
-    width:85%;
-  }
+    animation-name: posicion;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
 }
 
-.footer{
-  @media all and (min-width: 768px) {
-    flex-direction: row;
-    
-  }
+@keyframes posicion{
+    0%{
+       transform: translate X (0); transform: translate X (0);
+    }
+    100%{
+    transform: translate X (100%);
+    }
 }
