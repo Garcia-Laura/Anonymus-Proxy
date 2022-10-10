@@ -38,16 +38,23 @@
   text-transform: uppercase;
   font-weight: bolder;
   text-align: center;
-  width: 9ch;
   font-size: 50px;
-  margin-right: 50px;
+  
   @media all and (min-width: 768px) {
       font-size: 80px;
+      
     }
-    @media all and (min-width: 1280px) {
+    @media all and (min-width: 768px) {
       font-size: 100px;
-    }
+      
+    }  
   
+}
+.subtitle{
+  @media all and (min-width: 768px) {
+    font-size: 24;
+    
+  }
 }
 
 .down {
