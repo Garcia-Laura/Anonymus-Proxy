@@ -9,10 +9,10 @@
   margin: 0%;
   margin-left: 0;
   margin-right: 0;
-}
+
 
 .icon {
-  background-color: #0271bc;
+  background-color: $color-blue;
   width: 37px;
   height: 22px;
   margin: 0;
@@ -21,7 +21,7 @@
   z-index: 100;
 }
 .title {
-  color: white;
+  color: $color-w;
   height: 100vh;
   box-sizing: border-box;
   display: flex;
@@ -29,38 +29,41 @@
   align-items: center;
   justify-content: flex-end;
   padding-bottom: 30px;
- 
-   
-  }
-
-
-.title2 {
-  text-transform: uppercase;
-  font-weight: bolder;
-  text-align: center;
-  font-size: 50px $fontText;
-  
-  @media all and (min-width: 768px) {
-      font-size: 80px;
+  .title2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    word-spacing: 100vw;
+    text-align: center;
+    font-size: 50px;
+    font-family: $font-title;
       
-    }
     @media all and (min-width: 768px) {
-      font-size: 100px;
-      width: 10ch;
-      
-    }  
-  
-}
-.subtitle{
-  @media all and (min-width: 768px) {
-    font-size: 24 $fontParrafo;
+        font-size: 80px;
+        
+      }
+      @media all and (min-width: 768px) {
+        font-size: 100px;
+        width: 10ch;
+        
+      }  
     
   }
 }
+  .subtitle{
+    font-family: $font-text;
+      @media all and (min-width: 768px) {
+       font-size: 24 ;
+    
+      }
+  }
+
+}
+
+
 
 .down {
   margin-top: 50px;
-  background-color: white;
+  background-color: $color-w;
   height: 20px;
   width: 20px;
   border-radius: 22.5px;

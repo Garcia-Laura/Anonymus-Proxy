@@ -16,123 +16,150 @@
   .insomnia {
     margin: 24.9px 0 0;
     padding-top: 25px;
-    color: #8ccbea;
-    font-size: 14px $fontParrafo;
+    color: $color-blight;
+    font-size: 14px;
     line-height: -10px;
+    font-family: $font-text;
+    
   }
-  .looking {
+
+.looking {
     font-size: 24px;
     text-align: left;
     text-transform: capitalize;
     font-weight: bolder;
+    gap: 15px;
+    line-height: 50px;
     width: 18ch;
-    font-size: 24px $fontText;
-    @media tablet and (min-width: 768px) {
+    font-size: 24px ;
+    font-family: $font-text;
+    @media all and (min-width: 768px) {
       font-size: 26px;
-      width:auto;
-        
-      
+      width:50ch;
+           
      }
-     @media screen and (min-width: 1000) {
+     @media all and (min-width: 1000px) {
         font-size: 32px;
-        width: 30ch;
+        width: 50ch;
         
      }
 
   }
+
   .parrafo {
-    font-size: 15px $fontParrafo;
+    font-size: 15px ;
     text-align: left;
     color: #4a4a4a;
     padding-bottom: 20px;
     font-size: 24px;
-    @media tablet and (min-width: 768px) {
+    font-family: $font-text;
+    @media all and (min-width: 768px) {
       width:100%;
       font-size: 20px;
     }
-    @media screen and (min-width: 1000px){
-       width: none;
-    }
+    
   }
 
   .button {
     color: #f26002;
     background-color: white;
     font-size: 20px;
+    font-family: $font-text;
     border-radius: 50px;
     border: 2px solid #f26002;
     height: 45px;
     width: 76px;
     margin-bottom: 20px;
-    transition-property: font-size;
+    /*
+    transition-property: ;
     transition-duration: 4s;
-    transition-delay: 2s;
-    @media tablet and (min-width: 768px) {
+    transition-delay: 2s;*/
+    @media all and (min-width: 768px) {
       
-      font-size: 20px $fontParrafo;
+      font-size: 20px ;
     }
-    @media screen and (min-width: 1000px){
+    @media all and (min-width: 1000px){
       font-size: 32px;
       width: 160px;
       height: 45px;
     }
   
   }
-  .section2 {
+.section2 {
     background-color: #eff9ff;
     box-sizing: border-box;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
     text-align: center;
-    /* media*/
    
-  }
-  
-  .article, .article2, .article3{
-     box-sizing: border-box;
-     font-size: 18px;
-      
-  }
-  .reason {
-    font-size: 24px $fontText;
+}
+.reason {
+    font-size: 24px ;
+    font-weight: bold;
+    font-family: $font-title;
     text-transform: capitalize;
     margin-top: 25px;
-    margin-bottom: 25px;
-   
-   
-  }
-  .statement {
-    font-weight: bolder ;
-    font-size: 18px $fontText;
-  }
     
-  .paragraph::first-line{
+ }
+
+.articles{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  line-height: 35px;
+  gap: 20px;
+  padding: 20px 30px;
+    @media all and (min-width: 768px){
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      padding-bottom: 35px;
+    }
+    
+}     
+    
+.article_news{
+     box-sizing: border-box;
+     font-size: 18px;
+     font-family: $font-text;
+     line-height: 20px;
+           
+  }
+  
+
+.statement {
+    font-weight: bolder ;
+    font-size: 18px    ;
+    font-family: $font-text
+}
+    
+.paragraph::first-line{
     word-spacing:100vw;
     
     
   }
-  .elements{
+.elements{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  .more{
-     border: 3px solid #f26002;
+    padding-top: 50px;
+}
+.more{
+     border: 3px solid $color-button;
      border-radius: 60px;
-     background-color: #f26002;
-     color: white;
+     background-color: $color-button;
+     color: $color-w;
      font-size: 20px;
-     margin-bottom: 25px;
      width: 182px;
      height: 45px;
      text-align: center;
      align-items: center;
+     font-family: $font-text;
+         
+}
+     
   
-  }
+  
   .arrow{
-    background-color: white;
+    background-color: $color-w;
     height: 30px;
     width: 30px;
     border-radius: 100px;
@@ -152,3 +179,9 @@
     transform: translate X (100%);
     }
 }
+
+ 
+  
+  
+
+ 

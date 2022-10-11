@@ -35,7 +35,8 @@
  .list, .list2, .list3{
      line-height: 20px;
      color: white;
-     font: $fontParrafo;
+     font-family: $font-text
+   
  }
  .link{
    background-color: white;
@@ -49,7 +50,4 @@
   @media all and (min-width: 768px) {
     order: -1;
   } 
-}
-.em em-heart{
-  size: 10px;
 }
