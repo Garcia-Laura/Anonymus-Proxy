@@ -70,10 +70,7 @@
     height: 45px;
     width: 76px;
     margin-bottom: 20px;
-    /*
-    transition-property: ;
-    transition-duration: 4s;
-    transition-delay: 2s;*/
+    transition: .3s;
     @media all and (min-width: 768px) {
       
       font-size: 20px ;
@@ -83,8 +80,11 @@
       width: 160px;
       height: 45px;
     }
-  
-  }
+}
+.button:hover{
+  transform: rotate(360deg); 
+}
+
 .section2 {
     background-color: #eff9ff;
     box-sizing: border-box;
@@ -153,35 +153,46 @@
      text-align: center;
      align-items: center;
      font-family: $font-text;
-         
-}
      
-  
-  
-  .arrow{
-    background-color: $color-w;
-    height: 30px;
-    width: 30px;
-    border-radius: 100px;
-    position:relative;
-    top: 40px;
-    padding: 10px;
-    animation-name: posicion;
-    animation-duration: 4s;
-    animation-iteration-count: 3;
-}
-
-@keyframes posicion{
-    0%{
-       transform: translate X (0); transform: translate X (0);
+      transform: .3s;
     }
-    100%{
-    transform: translate X (100%);
+.more:hover{
+      transform: scale(2); 
+      background-color: $color-w;
+      align-items: center;
+      border-radius: 100px;
+      color: $color-button
     }
-}
 
  
+.animation{
+    animation-name: posicion;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+     
+@keyframes posicion{
+  0%{
+     transform: translate X (0); 
+  }
+  25%{
+    transform: translate(-100%);
+  }
+  50%{
+    transform: translate(-100%, -100%);
+  }
+  75%{
+    transform: translate(0, -100%);
+  }
+  
+  100%{
+  transform: translate X (0);
+  }
+}
   
   
 
+
+ 
  
