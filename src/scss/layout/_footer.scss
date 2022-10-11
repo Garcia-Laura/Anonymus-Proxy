@@ -1,53 +1,48 @@
 .footer {
-    background-color: #304268;
-    color:  white;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
+  background-color: #304268;
+  color: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 36px;
+  gap: 20px;
+  @media all and (min-width: 768px) {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding-right: 39px;
+    gap: 10px;
+  }
+  @media all and (min-width: 1000px) {
     align-items: center;
     justify-content: center;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 36px;
-    gap: 20px;
-    @media all and (min-width: 768px) {
-      flex-direction: row-reverse;
-      justify-content: space-around;
-      padding-right: 39px;
-      gap: 10px;
-      
-          
-    }
-    @media all and (min-width: 1000px) {
-      align-items: center;
-      justify-content: center;
-      gap: 80px;
-      
-    }
-  
+    gap: 80px;
   }
- 
- .list, .list2{
-    text-transform: uppercase;
-    text-decoration: none;
-    
- }
- .list, .list2, .list3{
-     line-height: 20px;
-     color: white;
-     font-family: $font-text
-   
- }
- .link{
-   background-color: white;
-   color: white;
-   text-decoration: none;
-   
- }
- 
- 
- .list2{
+}
+
+.list,
+.list2 {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.list,
+.list2,
+.list3 {
+  line-height: 20px;
+  color: white;
+  font-family: $font-text;
+}
+.link {
+  background-color: white;
+  color: white;
+  text-decoration: none;
+}
+
+.list2 {
   @media all and (min-width: 768px) {
     order: -1;
-  } 
+  }
 }

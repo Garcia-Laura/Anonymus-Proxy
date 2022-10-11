@@ -1,198 +1,187 @@
 .section1 {
-    margin-top: 30px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    line-height: 25px;
-    @media all and (min-width: 1000px) {
-      justify-content: center;
-      align-items: left;
-      margin-left: 200px;
-      
-     
-    }
+  margin-top: 30px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  line-height: 25px;
+  @media all and (min-width: 1000px) {
+    justify-content: center;
+    align-items: left;
+    margin-left: 200px;
   }
-  .insomnia {
-    margin: 24.9px 0 0;
-    padding-top: 25px;
-    color: $color-blight;
-    font-size: 14px;
-    line-height: -10px;
-    font-family: $font-text;
-    
-  }
+}
+.insomnia {
+  margin: 24.9px 0 0;
+  padding-top: 25px;
+  color: $color-blight;
+  font-size: 14px;
+  line-height: -10px;
+  font-family: $font-text;
+}
 
 .looking {
-    font-size: 24px;
-    text-align: left;
-    text-transform: capitalize;
-    font-weight: bolder;
-    gap: 15px;
-    line-height: 50px;
-    width: 18ch;
-    font-size: 24px ;
-    font-family: $font-text;
-    @media all and (min-width: 768px) {
-      font-size: 26px;
-      width:50ch;
-           
-     }
-     @media all and (min-width: 1000px) {
-        font-size: 32px;
-        width: 50ch;
-        
-     }
-
+  font-size: 24px;
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: bolder;
+  gap: 15px;
+  line-height: 50px;
+  width: 18ch;
+  font-size: 24px;
+  font-family: $font-text;
+  @media all and (min-width: 768px) {
+    font-size: 26px;
+    width: 50ch;
   }
-
-  .parrafo {
-    font-size: 15px ;
-    text-align: left;
-    color: #4a4a4a;
-    padding-bottom: 20px;
-    font-size: 24px;
-    font-family: $font-text;
-    @media all and (min-width: 768px) {
-      width:100%;
-      font-size: 20px;
-    }
-    
+  @media all and (min-width: 1000px) {
+    font-size: 32px;
+    width: 50ch;
   }
-
-  .button {
-    color: #f26002;
-    background-color: white;
-    font-size: 20px;
-    font-family: $font-text;
-    border-radius: 50px;
-    border: 2px solid #f26002;
-    height: 45px;
-    width: 76px;
-    margin-bottom: 20px;
-    transition: .3s;
-    @media all and (min-width: 768px) {
-      
-      font-size: 20px ;
-    }
-    @media all and (min-width: 1000px){
-      font-size: 32px;
-      width: 160px;
-      height: 45px;
-    }
 }
-.button:hover{
-  transform: rotate(360deg); 
+
+.parrafo {
+  font-size: 15px;
+  text-align: left;
+  color: #4a4a4a;
+  padding-bottom: 20px;
+  font-size: 24px;
+  font-family: $font-text;
+  @media all and (min-width: 768px) {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+.button {
+  color: #f26002;
+  background-color: white;
+  font-size: 20px;
+  font-family: $font-text;
+  border-radius: 50px;
+  border: 2px solid #f26002;
+  height: 45px;
+  width: 76px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+  }
+  @media all and (min-width: 1000px) {
+    font-size: 32px;
+    width: 160px;
+    height: 45px;
+  }
+}
+.button:hover {
+  transform: rotate(360deg);
 }
 
 .section2 {
-    background-color: #eff9ff;
-    box-sizing: border-box;
-    text-align: center;
-   
+  background-color: #eff9ff;
+  box-sizing: border-box;
+  text-align: center;
 }
 .reason {
-    font-size: 24px ;
-    font-weight: bold;
-    font-family: $font-title;
-    text-transform: capitalize;
-    margin-top: 25px;
-    
- }
+  font-size: 24px;
+  font-weight: bold;
+  font-family: $font-title;
+  text-transform: capitalize;
+  margin-top: 25px;
+}
 
-.articles{
+.articles {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 30px;
   line-height: 35px;
   gap: 20px;
   padding: 20px 30px;
-    @media all and (min-width: 768px){
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 1fr;
-      padding-bottom: 35px;
-    }
-    
-}     
-    
-.article_news{
-     box-sizing: border-box;
-     font-size: 18px;
-     font-family: $font-text;
-     line-height: 20px;
-           
+  @media all and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 35px;
   }
-  
+}
+
+.article_news {
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: $font-text;
+  line-height: 20px;
+}
 
 .statement {
-    font-weight: bolder ;
-    font-size: 18px    ;
-    font-family: $font-text
+  font-weight: bolder;
+  font-size: 18px;
+  font-family: $font-text;
 }
-    
-.paragraph::first-line{
-    word-spacing:100vw;
-    
-    
-  }
-.elements{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
-}
-.more{
-     border: 3px solid $color-button;
-     border-radius: 60px;
-     background-color: $color-button;
-     color: $color-w;
-     font-size: 20px;
-     width: 182px;
-     height: 45px;
-     text-align: center;
-     align-items: center;
-     font-family: $font-text;
-     
-      transform: .3s;
-    }
-.more:hover{
-      transform: scale(2); 
-      background-color: $color-w;
-      align-items: center;
-      border-radius: 100px;
-      color: $color-button
-    }
 
- 
-.animation{
-    animation-name: posicion;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    
+.paragraph::first-line {
+  word-spacing: 100vw;
 }
-     
-@keyframes posicion{
-  0%{
-     transform: translate X (0); 
+.elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.more {
+  border: 3px solid $color-button;
+  border-radius: 60px;
+  background-color: $color-button;
+  color: $color-w;
+  font-size: 20px;
+  width: 182px;
+  height: 45px;
+  text-align: center;
+  align-items: center;
+  font-family: $font-text;
+
+  transform: 0.3s;
+}
+.more:hover {
+  transform: scale(2);
+  background-color: $color-w;
+  align-items: center;
+  border-radius: 100px;
+  color: $color-button;
+}
+
+.arrow {
+  background-color: $color-w;
+  color: $color-button;
+  width: 45px;
+  height: 45px;
+  size: 21px;
+  padding: 10px;
+  border-radius: 100px;
+  position: relative;
+  top: 40px;
+}
+
+.animation {
+  animation-name: posicion;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+}
+
+@keyframes posicion {
+  0% {
+    transform: translate X (0);
   }
-  25%{
+  25% {
     transform: translate(-100%);
   }
-  50%{
+  50% {
     transform: translate(-100%, -100%);
   }
-  75%{
+  75% {
     transform: translate(0, -100%);
   }
-  
-  100%{
-  transform: translate X (0);
+
+  100% {
+    transform: translate X (0);
   }
 }
-  
-  
-
-
- 
- 
